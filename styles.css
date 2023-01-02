@@ -3,18 +3,29 @@
 :root {
     --primary-color:#EA580C;
     --dark-gray:#4B5563;
-    --off-white:#F5F5F4;
+    --off-white:#e5e7eb;
 }
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    margin: 0px;
+    margin:  0px 120px;
 }
 
 hr {
     margin: 2rem 0rem;
 }
 
+.blog-center{
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+/**spaces**/
+
+.margin-md {
+    margin: 2rem;
+}
 /** container **/
 
 .container {
@@ -45,6 +56,8 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+
+
 
 /* look into BEM naming convention for CSS */
 
@@ -91,6 +104,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -110,6 +124,7 @@ hr {
 
 .section {
     padding: 2rem ;
+    border-radius: 1rem;
 
 }
 
@@ -131,10 +146,17 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 3rem;
 }
 
 .footer .link {
     color: white;
+
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
