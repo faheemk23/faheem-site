@@ -29,8 +29,7 @@ hr {
 /** container **/
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: .5rem 1rem 1rem 1rem;
 }
 
 .container-center {
