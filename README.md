@@ -25,5 +25,3 @@ This portfolio was made as part of Level Zero of [Neogcamp](https://neog.camp).
 ## Preview:
 
 ![portfolio](https://user-images.githubusercontent.com/121616994/211199090-f8b46e93-b6fc-4f19-b01a-af8a11585112.jpg)
-
-test commit
